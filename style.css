@@ -1,0 +1,677 @@
+body{
+    margin: 0px;
+ }
+#commentbar{
+    background-color: black;
+    display: flex;
+    height: 34px;
+    font-size: 10px;
+    padding: 3px;
+    color: white;
+}
+#comment{
+    background-color: black;
+    text-align: center;
+    margin-left: 650px;
+    justify-content: space-around;
+    align-items: center;
+}
+#firstcomment{
+    font-weight: bold;
+    letter-spacing: 0.66px;
+    font-family:  'Bricolage Grotesque', sans-serif;
+  
+}
+#navicontainer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 90px;
+    position: sticky;
+    top: 0px;
+    
+}
+#navidiv1{
+   width: 240px;
+   /* height: 50px; */
+   background-color: white;
+   display: flex;
+   align-items: center;
+   padding-top: 63px;
+   /* color:black; */
+}
+#navidiv2{
+    width: 260px;
+    height: 89px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    /* padding-bottom: 5px; */
+    margin-left: 50px;
+ }
+ #navidiv3{
+    width: 200px;
+    height: 89px;
+    display: flex;
+    /* background-color: white; */
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+ }
+ #purchase{
+   width:130px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   align-items: center;
+ }
+ #left1{
+   width: 36px;
+   height: 45px;
+   padding-top: 13px;
+ }
+ #left2{
+   width: 36px;
+   height: 45px;
+   padding-top: 13px;
+ }
+ #left3{
+   width: 36px;
+   height: 45px;
+ }
+ #textdiv1{
+    background-color: white;
+ }
+ #textdiv2{
+    background-color: white;
+    /* height: 20px; */
+    /* width: 40px; */
+ }
+ #textdiv3{
+    background-color: white;
+    /* height: 20px; */
+    /* width: 40px; */
+ }
+ #size{
+    font-size: 12px;
+    color: black;
+    font-family:  'Bricolage Grotesque', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    padding: 10px;
+ }
+ #img{
+    width: 216px;
+    height: 114px;
+  
+   /* background-repeat: no-repeat; */
+   /* background-color: black; */
+
+ }
+ #container3{
+    height: 360px;
+    width: 100%;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* position: relative; */
+    /* margin: 4px; 
+    row-gap: 100px;
+    position: relative;
+    /* padding-bottom: 40px;
+    flex-wrap: wrap;*/
+
+ }
+ #inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 48px;
+    margin-top: 8px;
+    padding: -10px;
+ }
+ #pic1{
+    width: 281px;
+    height: 280px;
+
+   /* background-color: black;
+    border-color: aqua;
+    position: absolute;
+    border-radius: 50%;
+    border-style: solid;
+    padding-top: 10px;*/
+ }
+
+ #pic1 img{
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+ }
+
+ #pic2 img{
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+ }
+ #pic3 img{
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+ }
+ #pic4 img{
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+ }
+ #pic5 img{
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+ }
+ #pic2{
+    width: 281px;
+    height: 280px;
+   /* background-color: black;
+    border-color: aqua;
+    position: absolute; 
+    border-radius: 50%;
+    border-style: solid;
+    padding-top: 10px;*/
+ }
+ 
+ #pic3{
+    width: 281px;
+    height: 280px;
+  /*  background-color: black;
+    border-color: aqua;
+     position: absolute; 
+    border-radius: 140px;
+    border-style: solid;
+    padding-top: 10px;*/
+ }
+ 
+ #pic4{
+    width: 281px;
+    height: 280px;
+   
+ }
+ 
+ #pic5{
+    width: 281px;
+    height: 280px;
+    
+ }  
+ #ROUND{
+    padding-left: 117px;
+    font-size: 12px;
+    /* font-family: 'Bricolage Grotesque', sans-serif; */
+    /* font-family: 'Gabarito', cursive; */
+    font-family: 'Heebo', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Roboto', sans-serif;; */
+    
+ }
+ #imgdiv{
+    height: 700px;
+ }
+ #feutured{
+    color: black;
+    /* position: absolute; */
+    margin-left:700px ;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    letter-spacing: 0.648px;
+    font-size: 10.8px;
+  
+}
+#afterpic{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background-color: red;
+    align-items: center;
+    padding-left: 600px;
+    font-weight: 400;
+ }
+#inside{
+    width: 300px;
+    /* color: RED; */
+    padding-left: 55px;
+    /* height: 50px; */
+    /* background-color: black; */
+}
+#menwomen{
+    font-family:  'Bricolage Grotesque', sans-serif;
+    color: black;
+    margin-left: 680px;
+}
+#models{
+    width: 100%;
+    height: 520px;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    justify-content: space-around;
+}
+#model1{
+    width: 306px;
+    height: 403px;
+}
+#model2{
+    width: 306px;
+    height: 403px;
+}
+#model3{
+    width: 306px;
+    height: 403px;
+}
+#model4{
+    width: 306px;
+    height: 403px;
+}
+#model1 img{
+   width: 100%;
+   height: 100%;
+}
+#model2 img{
+   width: 100%;
+   height: 100%;
+}
+#model3 img{
+   width: 100%;
+   height: 100%;
+}
+#model4 img{
+   width: 100%;
+   height: 100%;
+}
+#photo1 {
+   text-align: center;
+   color: grey;
+   letter-spacing: 1px;
+   font-family: 'Bricolage Grotesque', sans-serif;
+}
+#photo2 {
+   text-align: center;
+   color: grey;
+   letter-spacing: 1px;
+   font-family: 'Bricolage Grotesque', sans-serif;
+}
+#photo3 {
+   text-align: center;
+   color: grey;
+   letter-spacing: 1px;
+   font-family: 'Bricolage Grotesque', sans-serif;
+}
+#photo4 {
+   text-align: center;
+   color: RED;
+   font-size: 13px;
+   font-family: 'Bricolage Grotesque', sans-serif;
+   letter-spacing: 1px;
+   padding-left: 80px;
+}
+#discount{
+   font-size: 13px;
+   font-family: 'Bricolage Grotesque', sans-serif;
+   text-decoration: line-through;
+   color: black;
+   padding-left: 15px;
+}
+h5{
+    font-family: 'Heebo', sans-serif;
+    margin-left: 50px;
+ }
+ #look1{
+   font-size: 12px;
+   font-family: 'Bricolage Grotesque', sans-serif;
+   letter-spacing: 0.648px;
+ }
+ #look2{
+   font-size: 12px;
+   font-family: 'Bricolage Grotesque', sans-serif;
+   letter-spacing: 0.648px;
+   /* color: black; */
+ }
+ #look3{
+   font-size: 12px;
+   font-family: 'Bricolage Grotesque', sans-serif;
+   letter-spacing: 0.648px;
+ }
+ #look4{
+   font-size: 12px;
+   font-family: 'Bricolage Grotesque', sans-serif;
+   letter-spacing: 0.648px;
+   padding-left: 50px;
+ }
+ #viewall{
+   width: 100%;
+   height: 100px;
+   background-color:  rgb(239, 239, 239);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+#button{
+   width: 139px;
+  height: 40px;
+  background-color: black;
+  padding: 5px 5px;
+ display: flex;justify-content: center;
+ align-items: center;
+ font-family: 'Bricolage Grotesque', sans-serif;
+}
+#viewbutton{
+   color: white;
+   letter-spacing: 0.18em;
+
+}
+#button:hover h6{
+ 
+  color:black;
+  background-color:  rgb(239, 239, 239);
+}
+#button:hover{
+   background-color:  rgb(239, 239, 239);
+   border: 1px solid black;
+}
+#space{
+ height: 40px;
+ background-color:  rgb(239, 239, 239);
+ border-width: 0.5px;
+    border-style: dashed;  
+    border: solid ;
+    border-top: 1px;
+    border-color: rgb(208, 208, 208);
+}
+#steal{
+   height: 140px;
+   background-color:  rgb(239, 239, 239);
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   padding-top: 20px;
+}
+#stealthelook{
+   width: 400px;
+   height: 30px;
+   background-color:  rgb(239, 239, 239);
+   font-family: 'Bricolage Grotesque', sans-serif;
+}
+#fuckpicarea{
+   width: 100%;
+   height: 620px;
+   background-color:  rgb(239, 239, 239);
+   display: flex;
+   border-width: 0.5px;
+   border-style: dashed;  
+   border: solid ;
+   border-top: 1px;
+   border-color: rgb(208, 208, 208);
+}
+#fuck1{
+   width: 50%;
+   height: 500px;
+   /* background-color: aqua; */
+   margin-left: 270px;
+}
+#fpic1{
+   /* width: 200px; */
+   /* height: 300px; */
+}
+.home:hover{
+   border-bottom: 3px solid black;
+   padding-bottom: 40px;
+}
+
+
+#fpic2{
+   padding-right: 370px;
+   padding-top: 20px;
+}
+#TIRE{
+   padding-left: 47px;
+}
+.price{
+   color: red;
+   padding-left: 50px;
+   font-size: 13px;
+   font-family: 'Bricolage Grotesque', sans-serif;
+   letter-spacing: 1px;
+}
+#cutting{
+   font-size: 13px;
+   font-family: 'Bricolage Grotesque', sans-serif;
+   text-decoration: line-through;
+   color: black;
+   padding-left: 15px;
+}
+#viewprdct{
+   width: 100%;
+   height: 100px;
+   background-color:  rgb(239, 239, 239);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+#product{
+   width: 160px;
+  height: 40px;
+  background-color: black;
+  padding: 5px 5px;
+ display: flex;justify-content: center;
+ align-items: center;
+ font-family: 'Bricolage Grotesque', sans-serif;
+}
+#prbt{
+   color: white;
+   letter-spacing: 0.18em;
+
+}
+#product:hover h6{
+ 
+  color:black;
+  background-color:  rgb(239, 239, 239);
+}
+#product:hover{
+   background-color:  rgb(239, 239, 239);
+   border: 1px solid black;
+}
+.icon{
+   width: 100%;
+   height: 280px;
+   background-color:  rgb(239, 239, 239);
+   display: flex;
+    align-items: center; 
+   justify-content: space-around; 
+   /* flex-direction: row; */
+}
+ #symbols{ 
+   width: 1400px;
+   height: 94px;
+   display: flex;
+   background-color:  rgb(239, 239, 239);
+   justify-content: space-around;
+   /* background-color: aqua; */
+ } 
+.payment{
+   width: 300px;
+   height: 94px;
+   display: flex;
+   background-color:  rgb(239, 239, 239);
+   /* background-color: blue; */
+   margin-right: 70px;
+   margin-left: 40px;
+   justify-content: center;
+   align-items: center;
+  padding-left: 100px;
+  }
+.lion{
+   width: 300px;
+   height: 94.35px;
+   display: flex;
+   background-color:  rgb(239, 239, 239);
+   justify-content: center;
+   align-items: center;
+   /* background-color: blueviolet; */
+   margin-right: 60px;
+   padding-right: 90px;
+}
+.shipping{
+   width: 300px;
+   height: 94.35px;
+   display: flex;
+   background-color:  rgb(239, 239, 239);
+   justify-content: center;
+   align-items: center;
+   /* background-color: brown; */
+   /* margin-left: 60px; */
+   padding-right: 60px;
+} 
+.texts{
+   width: 100%;
+   background-color: chartreuse;
+
+}
+#secure{
+   font-family: 'Bricolage Grotesque', sans-serif;
+   /* padding: 18px; */
+}
+#footer{
+   height: 320px;
+   display: flex;
+   justify-content: space-between;
+}
+#foot1{
+   width: 430px;
+   background-color: white;
+   /* text-align: center; */
+   font-family: 'Bricolage Grotesque', sans-serif;
+  margin-left: 10px;
+}
+#foot2{
+   width: 180px;
+   /* background-color: aqua; */
+   
+}
+#foot3{
+   width: 270px;
+   /* background-color: yellow; */
+}
+#foot4{
+   width: 350px;
+   /* background-color: blue; */
+}
+#ftfirst{
+   margin-left: 18px;
+   letter-spacing: 1px;
+   font-size: 17px;
+   font-family: 'Bricolage Grotesque', sans-serif;
+   color: rgb(113, 104, 104);
+}
+#about{
+   margin-left: 21px;
+   font-size: 12px;
+}
+#menu{
+   font-family: 'Bricolage Grotesque', sans-serif;
+   font-size: 12px;
+   margin-left: 10px;
+}
+LI{
+   margin-left: 12px;
+   font-size: 16px;
+   font-family: 'Bricolage Grotesque', sans-serif;
+   color: rgb(113, 104, 104);
+   list-style: none;
+   
+}
+#privacy{
+   margin-left: 15px;
+   font-size: 12px;
+   font-family: 'Bricolage Grotesque', sans-serif;
+}
+#news{
+   margin-left: 21px;
+   padding-top: 32px;
+   font-size: 12px;
+   font-family: 'Bricolage Grotesque', sans-serif;
+}
+#signup{
+   margin-left: 19px;
+   padding-top: 3px;
+   font-size: 16px;
+   letter-spacing: 1px;
+   font-family: 'Bricolage Grotesque', sans-serif;
+   color: rgb(113, 104, 104);
+}
+#user{
+   margin-left: 19px;
+   width: 260px;
+   height: 40px;
+}
+#emailsub{
+   width: 100%;
+   height: 100px;
+   margin-top: 20px;
+   margin-left: 20px;
+   
+}
+#subscribe{
+   width: 150px;
+  height: 35px;
+  background-color: black;
+  padding: 5PX 5px;
+ display: flex;justify-content: center;
+ align-items: center;
+ font-family: 'Bricolage Grotesque', sans-serif;
+}
+#subbutton{
+   color: white;
+   letter-spacing: 0.18em;
+   font-size: 12px;
+
+}
+#subscribe:hover h6{
+ 
+  color:black;
+  background-color:  white;
+}
+#subscribe:hover{
+   background-color:  white;
+   border: 1px solid black;
+}
+#last{
+   /* height: 104px; */
+   width: 0px;
+   display: flex;
+   /* background-color: blue; */
+   justify-content: start;
+   align-items: start;
+}
+#facebook{
+   /* background-color: chartreuse; */
+   /* height: 20px; */
+   width: 10px;
+   margin-left: 50px;/
+   padding-top: 0px;/
+   /* background-color: aqua; */
+}
+#insta{
+   margin-left: 40px;
+   /* padding-bottom: 90px; */
+   /* background-color: brown; */
+   width: 21px;
+   height: 20px;
+
+}
+#lasttext{
+   margin-left: 0px;
+   padding-bottom: 80px;
+}
